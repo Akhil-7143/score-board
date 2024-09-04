@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    background: #8686e7;
+    height: 100vh;
+    width: 100%;
+  }
+
+  h1 {
+    color: azure;
+  }
+
+  .target-team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .team-score-card {
+    display: flex;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px;
+    p {
+      color: aliceblue;
+      font-size: 22px;
+    }
+  }
+
+  .admin-btn {
+    background-color: aliceblue;
+    height: 34px;
+    width: 120px;
+    border: none;
+    border-radius: 6px;
+    font-size: 23px;
+  }
+  .overs-list {
+    display: flex;
+    margin-left: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .balls-list {
+    display: flex;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}

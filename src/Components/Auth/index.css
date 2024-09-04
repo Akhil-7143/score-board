@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    background-color: #ccc;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      width: 80%;
+      border: 3px;
+      background-color: black;
+      label {
+        color: rgb(242, 239, 239);
+        font: 400;
+        font-family: "Courier New", Courier, monospace;
+        margin-top: 33px;
+        font-size: 42px;
+      }
+      input {
+        height: 64px;
+        margin-top: 24px;
+        width: 70%;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        font-size: 44px;
+      }
+      .submit-btn {
+        margin-top: 24px;
+        border: none;
+        background-color: coral;
+        height: 53px;
+        width: 120px;
+        font-size: 33px;
+      }
+    }
+  }
+}
