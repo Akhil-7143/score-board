@@ -2,6 +2,7 @@
   "name": "score-board",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akhil-7143.github.io/score-board",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +20,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
